@@ -8,6 +8,6 @@ public class Main {
         okno.setVisible(true);
         okno.setSize(400, 400);
         okno.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        okno.add(new MyCanvas());
+        okno.add(new MyPanel());
     }
 }
